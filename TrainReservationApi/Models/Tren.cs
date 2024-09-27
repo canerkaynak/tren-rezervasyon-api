@@ -2,7 +2,7 @@
 {
     public class Tren
     {
-        public required string Ad { get; set; } = string.Empty;
-        public required List<Vagon> Vagonlar { get; set; }
+        public string Ad { get; set; } = string.Empty;
+        public List<Vagon> Vagonlar { get; set; }
     }
 }
