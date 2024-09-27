@@ -2,7 +2,7 @@
 {
     public class Tren
     {
-        public string Ad { get; set; }
-        public List<Vagon> Vagonlar { get; set; }
+        public required string Ad { get; set; }
+        public required List<Vagon> Vagonlar { get; set; }
     }
 }
