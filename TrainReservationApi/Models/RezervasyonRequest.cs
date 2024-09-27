@@ -2,8 +2,8 @@
 {
     public class RezervasyonRequest
     {
-        public required Tren Tren { get; set; }
-        public required int RezervasyonYapilacakKisiSayisi { get; set; }
-        public required bool KisilerFarkliVagonlaraYerlestirilebilir { get; set; }
+        public Tren Tren { get; set; }
+        public int RezervasyonYapilacakKisiSayisi { get; set; }
+        public bool KisilerFarkliVagonlaraYerlestirilebilir { get; set; }
     }
 }
