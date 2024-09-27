@@ -17,11 +17,10 @@ namespace TrainReservationApi.Controllers
             int toplamYapılmışRezervasyon = 0;
 
             /*
-             * Each car iterated
-             * If there are empty seats and reserved seats are below the 70% of total capacity, other criterieas review
-             * If everyone wants to seat in the same car, considered whether there are enough available seats.
-             * If different cars is not a problem, available seats are arranged
-             * These arrangement added to details list
+             * Vagonlar uzerinde dongu donuldu.
+             * Vagon kapasitesinin yuzde yetmisi uzerinden uygun koltuk sayisi hesaplandi.
+             * Rezerve edilecek koltuk sayisi farkli vagonlara,
+             * yerlestirilip yerlestirilemeyecegi kosuluna gore belirlendi
              * 
              * Time and Space complexity are O(n)
             */
