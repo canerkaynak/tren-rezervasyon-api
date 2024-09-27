@@ -22,7 +22,7 @@ namespace TrainReservationApi.Controllers
              * Rezerve edilecek koltuk sayisi farkli vagonlara,
              * yerlestirilip yerlestirilemeyecegi kosuluna gore belirlendi
              * 
-             * Time and Space complexity are O(n)
+             * Zaman ve hafiza karmasikligi: O(n)
             */
             foreach (var vagon in request.Tren.Vagonlar)
             {
