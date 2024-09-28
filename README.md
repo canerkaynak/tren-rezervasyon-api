@@ -1,9 +1,9 @@
-Request Formatı
-
+#### Request Formatı
+```json
 {
     "Tren":
     {
-        "Ad":"Başkent Ekspres",
+        "Ad":"Ada Ekspresi",
         "Vagonlar":
         [
             {"Ad":"Vagon 1", "Kapasite":100, "DoluKoltukAdet":68},
@@ -14,9 +14,10 @@ Request Formatı
     "RezervasyonYapilacakKisiSayisi":3,
     "KisilerFarkliVagonlaraYerlestirilebilir":true
 }
+```
 
-Response Formatı
-
+#### Response Formatı
+```json
 {
     "RezervasyonYapilabilir":true,
     "YerlesimAyrinti":
@@ -25,3 +26,4 @@ Response Formatı
         {"VagonAdi":"Vagon 2","KisiSayisi":1}
     ]
 }
+```
